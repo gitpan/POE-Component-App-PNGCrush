@@ -1,0 +1,24 @@
+---
+name: POE-Component-App-PNGCrush
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: non-blocking wrapper around App::PNGCrush
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  App::PNGCrush: 0.001
+  Carp: 1.04
+  POE: 0.9999
+  POE::Component::NonBlockingWrapper::Base: 0.002
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::App::PNGCrush:
+    file: lib/POE/Component/App/PNGCrush.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
