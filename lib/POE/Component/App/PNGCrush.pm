@@ -3,7 +3,7 @@ package POE::Component::App::PNGCrush;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use Carp;
 use POE;
@@ -58,6 +58,8 @@ sub _process_request {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
